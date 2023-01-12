@@ -1,0 +1,10 @@
+// For format details, see https://aka.ms/devcontainer.json.
+{
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "pack.ts"
+      ]
+    }
+  }
+}
