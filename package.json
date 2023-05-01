@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@codahq/packs-sdk": "^1.3.0"
+    "@codahq/packs-sdk": "^1.3.4"
   },
   "devDependencies": {
     "@types/chai": "^4.3.4",
