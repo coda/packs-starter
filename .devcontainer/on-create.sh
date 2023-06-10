@@ -1,3 +1,3 @@
 #!/bin/bash
 
-yarn install
+npm install
