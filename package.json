@@ -17,7 +17,7 @@
     "@types/chai-as-promised": "7.1.5",
     "@types/mocha": "10.0.1",
     "@types/node": "18.15.11",
-    "@types/sinon": "10.0.13",
+    "@types/sinon": "10.0.20",
     "chai": "4.3.7",
     "chai-as-promised": "7.1.1",
     "mocha": "10.2.0",
