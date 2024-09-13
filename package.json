@@ -22,7 +22,7 @@
     "chai-as-promised": "7.1.1",
     "mocha": "10.3.0",
     "patch-package": "8.0.0",
-    "sinon": "17.0.1",
+    "sinon": "18.0.1",
     "ts-node": "10.9.2",
     "typescript": "5.4.2"
   }
