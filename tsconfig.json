@@ -2,6 +2,10 @@
   "compilerOptions": {
     "lib": ["ES2022"],
     "target": "ES2020",
-    "moduleResolution": "node"
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true
   }
 }

@@ -2,28 +2,30 @@
   "name": "packs-starter",
   "version": "1.0.0",
   "description": "A starter project template for creating a Coda Pack.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "postinstall": "npx patch-package",
-    "test": "mocha --require ts-node/register test/*.ts",
-    "validate": "coda validate pack.ts",
-    "upload": "coda upload pack.ts"
+    "test": "mocha test/*.ts",
+    "validate": "packs validate pack.ts",
+    "upload": "packs upload pack.ts"
   },
   "license": "MIT",
   "dependencies": {
-    "@codahq/packs-sdk": "1.8.6"
+    "@codahq/packs-sdk": "^1.15.0"
   },
   "devDependencies": {
-    "@types/chai": "4.3.20",
-    "@types/chai-as-promised": "7.1.8",
-    "@types/mocha": "10.0.6",
-    "@types/node": "20.11.25",
-    "@types/sinon": "17.0.3",
-    "chai": "4.5.0",
-    "chai-as-promised": "7.1.1",
-    "mocha": "10.3.0",
-    "patch-package": "8.0.0",
-    "sinon": "17.0.1",
-    "ts-node": "10.9.2",
-    "typescript": "5.4.2"
+    "@types/chai": "5.2.3",
+    "@types/chai-as-promised": "8.0.2",
+    "@types/mocha": "10.0.10",
+    "@types/node": "25.9.1",
+    "@types/sinon": "21.0.1",
+    "chai": "6.2.2",
+    "chai-as-promised": "8.0.2",
+    "mocha": "11.7.6",
+    "patch-package": "8.0.1",
+    "sinon": "22.0.0"
   }
 }
