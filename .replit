@@ -1,5 +1,5 @@
 entrypoint = "pack.ts"
-run = "npx coda execute pack.ts Hello \"World\""
+run = "npx packs execute pack.ts Hello \"World\""
 hidden = [".build", ".config", ".devcontainer", ".github", "CODEOWNERS.txt"]
 
 [packager]
